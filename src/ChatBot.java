@@ -43,5 +43,7 @@ public class ChatBot {
     // method that RETURNS a goodbye message as a String -- note there is no printing here!
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
+
+        //delete this
     }
 }
