@@ -43,7 +43,18 @@ public class ChatBot {
     // method that RETURNS a goodbye message as a String -- note there is no printing here!
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
-
-        //delete this
     }
-}
+
+    //new method that returns an int value
+    public String numberProduct(int num) {
+        int multipleNum = 10;
+        multipleNum = multipleNum * num;
+        return "I wanted to let you know that your number times 10 is " + multipleNum;
+    }
+    //new method that returns no value
+    public void printColor(String NewColor){
+        System.out.print("Wow, what a coincidence! My favorite color is also " + NewColor + "!");
+    }
+
+    }
+
